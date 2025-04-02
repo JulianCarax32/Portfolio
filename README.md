@@ -80,7 +80,7 @@ ng build
 ### Deploying to Firebase Hosting
 This project is hosted using **Firebase Hosting**. Follow these steps to deploy:
 
-1. **Create a Firebase Project (to be honest I personally work with Oracle Cloud but maybe Firebase is more popular)**
+1. **Create a Firebase Project (to be honest I personally work with [Oracle Cloud](https://www.oracle.com/cloud/free/) but maybe Firebase is more popular)**
    - Visit [Firebase Console](https://console.firebase.google.com/) and create a new project.
    - Add a web app to your Firebase project.
 
