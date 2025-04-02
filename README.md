@@ -35,7 +35,7 @@ Follow the official Angular documentation to [download and install Angular](http
 ### Clone and Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JulianCarax32/portfolio
+   git clone https://github.com/JulianCarax32/Portfolio
    cd portfolio
    ```
 
