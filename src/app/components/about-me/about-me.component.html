@@ -1,11 +1,15 @@
-<div class="my-24 mt-24 lg:mt-48">
+<div class="my-24 mt-24 lg:mt-24">
 
     <div class="main" id="skills">
 
-        <div class="skills-header-div my-8" data-aos="fade-up">
+<!--        CONSIGLIO (soprattutto per mobile) fadeInTop (per come l'ho impostato io) significa fare partire l'elemento da più in basso e poi animarlo verso l'alto
+            ciò significa che se è già nel limite basso potrebbe uscire del tutto dal viewport e non mostrarsi all'inizio del render nel DOM
+            (valido il discorso opposto per fadeInTop e i limiti di viewport della parte alta dello schermo)
+            (certamente dipende anche dal threshold dell'animazione ;-) )!-->
+        <div class="skills-header-div my-8" animateOnScroll="fadeInBottom">
 
             <h1 class="skills-header">
-                What I Do?
+                {{ "WHAT_I_DO" | translate }}
             </h1>
         </div>
 
@@ -14,44 +18,46 @@
 
             <div class="skills-main-div">
 
-                <div class="skills-image-div" data-aos="fade-right">
+                <div class="skills-image-div" animateOnScroll="fadeInRight">
                     <img [src]="ab.imagePath" [alt]="ab.sectionTitle">
                 </div>
-    
-                <div class="skills-text-div" data-aos="fade-left">
+
+                <div class="skills-text-div" animateOnScroll="fadeInLeft">
                     <h1 class="skills-heading">
-                        {{ ab.sectionTitle }}
+                        {{ ab.sectionTitle | translate}}
                     </h1>
-    
+
                     <div class="social-media-div">
 
                         @for (l of ab.skillLinks; track $index) {
-                            <a 
+                            <a
                                 [href]="l.link"
                                 target="_blank"
-                                rel="noopener noreferrer" 
+                                rel="noopener noreferrer"
                                 class="icon-button"
                                 [title]="l.name"
                                 >
-                        
+
                                 <div class="img-container" [ngStyle]="{'backgroundColor': l.backgroundColor}">
-                                    <img 
-                                        src="https://unpkg.com/simple-icons@v13/icons/{{ l.simpleIconName }}.svg"
+<!--                                    src="https://unpkg.com/simple-icons@v13/icons/{{ s.simpleIconName }}.svg"-->
+<!--                                    https://github.com/simple-icons/simple-icons/releases/tag/13.21.0-->
+                                    <img
+                                        src="assets/icons/used/{{ l.simpleIconName }}.svg"
                                         />
                                 </div>
-                        
+
                             </a>
                         }
                     </div>
-    
+
                     <div>
-    
+
                         @for (sl of ab.skillsList; track $index) {
                             <p class="subTitle skills-text">
-                                ⚡ {{ sl }}
+                                ⚡ {{ sl | translate}}
                             </p>
                         }
-    
+
                     </div>
                 </div>
             </div>

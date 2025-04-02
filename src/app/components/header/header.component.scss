@@ -13,14 +13,27 @@
         text-decoration: none;
         margin-top: 10px;
         line-height: normal;
+        position: relative;
+
+      .html-tag{
+        color: $theme-blue;
+
+          @media (max-width: 1024px) {
+              font-weight: bold;
+          }
+      }
 
         .logo-name {
             font-family: "Agustina Regular";
             font-weight: bold;
-            padding: 0;
+            padding: 0 0 0 8px;
             color: $theme-blue;
         }
     }
+
+  .hamburger-button{
+    color: $theme-blue;
+  }
 }
 
 ul.menu {
@@ -34,12 +47,13 @@ ul.menu {
     &.small {
         display: block;
         width: 90%;
-        margin: 0 auto;
+        margin: 5px auto 0;
     }
 
     li {
 
         a {
+            border: 3px solid transparent;
             padding: 1rem;
             display: block;
             text-decoration: none;
@@ -48,14 +62,71 @@ ul.menu {
             text-align: center;
 
             &:hover {
-                background-color: #A6E1FA;
+                background-color: $text-violet;//$text-secondary;
                 display: block;
                 text-decoration: none;
+                border-radius: 30px;
+                color: $dark-background;
+                cursor: pointer;
+
+                //&:hover{
+                border: 3px solid $text-violet;
+
+                @media (max-width: 1024px) {
+                    margin-left: 20%;
+                    margin-right: 20%;
+                    background-color: $dark-background;
+                    color: $theme-blue;
+                }
+            }
+
+            &.permanent-border-radius {
+              border: 3px solid $text-secondary;
+              display: block;
+              text-decoration: none;
+              border-radius: 30px;
+              &:hover{
+                border: 3px solid $text-violet;
+              }
+            }
+
+            &.permanent-selected-mobile {
+                margin-left: 20%;
+                margin-right: 20%;
+                background-color: $text-violet;//$text-secondary;
+                display: block;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 30px;
+                color: $dark-background;
+                cursor: pointer;
             }
         }
     }
 }
 
+.translate{
+    font-family: "Google Sans Bold Italic";
+    font-size: 1rem;
+    color: $theme-secondary;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    //border-radius: 10px;
+    //background-color: $dark-background;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        top: 30px;
+        width: max-content;
+    }
+}
+
+a:hover{
+    cursor: pointer;
+    user-select: none;
+}
 
 // .nav-overlay-background {
 //     position: absolute;
@@ -65,3 +136,49 @@ ul.menu {
 //     background-color: black;
 //     opacity: 0.5;
 // }
+
+.nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 26px;
+    width: 28px;
+    //margin-bottom: 5px; //letteralmente su quei 5 px di margin non funziona il click(), sul padding sì
+    padding-bottom: 5px;
+}
+
+.bars{
+    display: contents;
+}
+
+.nav-toggle .bars .bar {
+    height: 3px;
+    width: 28px;
+    background-color: $theme-blue;
+    transition: all 300ms ease-in-out;
+    border-radius: 2px;
+}
+
+.nav-toggle:hover {
+    cursor: pointer;
+}
+
+.x:nth-of-type(1) {
+    transition: all 300ms ease-in-out;
+    transform: rotate(55deg);
+    transform-origin: top left;
+    width: 28px;
+}
+
+.x:nth-of-type(2) {
+    transition: all 300ms ease-in-out;
+    transform-origin: center;
+    width: 0 !important;
+}
+
+.x:nth-of-type(3) {
+    transition: all 300ms ease-in-out;
+    transform: rotate(-55deg);
+    transform-origin: bottom left;
+    width: 28px;
+}

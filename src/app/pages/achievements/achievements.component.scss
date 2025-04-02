@@ -25,6 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    //Necessario per fornire già un ingombro al div (che tanto ospiterà un'immagine alta almeno 200px),
+    // di modo da non avere problemi di render mentre l'immagine viene scaricata e renderizzata
+    min-height: 250px;
 }
 
 .achievement-heading-text-div {

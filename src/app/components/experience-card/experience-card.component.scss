@@ -1,2 +1,38 @@
 @import '../../../css/variables.scss';
 
+h3 {
+  color: $text-violet;
+}
+
+span {
+  color: $text-violet-light;
+}
+
+a, p {
+  color: $theme-secondary;
+}
+
+p {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    p {
+        text-align: left;
+        text-indent: -2rem;
+        padding-left: 2rem;
+    }
+}
+
+img {
+    border-radius: 5px;
+    &.passepartout-logo-adapter{
+        padding: 5px;
+        background: white;
+    }
+    &.ics-computer-logo-adapter{
+        padding-right: 5px;
+        padding-left: 5px;
+        background: white;
+    }
+}

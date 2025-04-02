@@ -2,25 +2,26 @@
     <div class="basic-education">
         <div class="education-heading-div">
 
-            <div class="education-heading-img-div" data-aos="fade-right">
+            <div class="education-heading-img-div" animateOnScroll="fadeInRight">
                 <img [src]="assetPaths.EDUCATION_COVER" alt="Projects & Freelancing">
             </div>
-            
-            <div class="education-heading-text-div" data-aos="fade-left">
+
+<!--            [attr.data-aos-delay]=DURATION_ENTER_ANIMATION-->
+            <div class="education-heading-text-div" animateOnScroll="fadeInLeft">
                 <h1 class="education-heading-text">
-                    {{ appConfig.educationPageTitle }}
+                    {{ appConfig.educationPageTitle | translate}}
                 </h1>
                 <p class="education-header-detail-text subTitle">
-                    {{ appConfig.educationPageDescription }}
+                    {{ appConfig.educationPageDescription | translate}}
                 </p>
             </div>
         </div>
     </div>
 
-
-    <div class="section-heading-text-div" data-aos="fade-up">
+<!--    [attr.data-aos-delay]=DURATION_ENTER_ANIMATION*2-->
+    <div class="section-heading-text-div" animateOnScroll="fadeInTop">
         <h1 class="section-heading-text">
-            My Degrees
+            {{ "ACADEMIC_BACKGROUND" | translate}}
         </h1>
     </div>
 

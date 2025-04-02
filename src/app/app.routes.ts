@@ -11,27 +11,27 @@ export const routes: Routes = [
     {
         path: AppRoutes.HOME,
         component: HomeComponent,
-        title: `Dhruvil's Portfolio`,
+        title: `Ivan's Portfolio`,
     },
     {
         path: AppRoutes.PROJECTS,
         component: ProjectsComponent,
-        title: `Projects | Dhruvil's Portfolio`,
+        title: `Projects | Ivan's Portfolio`,
     },
     {
         path: AppRoutes.EXPERIENCE,
         component: ExperienceComponent,
-        title: `Experience | Dhruvil's Portfolio`,
+        title: `Experience | Ivan's Portfolio`,
     },
     {
         path: AppRoutes.EDUCATION,
         component: EducationComponent,
-        title: `Education | Dhruvil's Portfolio`,
+        title: `Education | Ivan's Portfolio`,
     },
     {
         path: AppRoutes.ACHIEVEMENTS,
         component: AchievementsComponent,
-        title: `Achievements | Dhruvil's Portfolio`,
+        title: `Achievements | Ivan's Portfolio`,
     },
     {
         path: "**",
@@ -40,6 +40,6 @@ export const routes: Routes = [
     {
         path: AppRoutes.ERROR,
         component: ErrorComponent,
-        title: `Error | Dhruvil's Portfolio`,
+        title: `Error | Ivan's Portfolio`,
     }
 ];

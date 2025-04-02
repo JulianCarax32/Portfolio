@@ -2,16 +2,17 @@
     <div class="basic-experience">
         <div class="experience-heading-div">
 
-            <div class="experience-heading-img-div" data-aos="fade-right">
+            <div class="experience-heading-img-div" animateOnScroll="fadeInRight">
                 <img [src]="assetPaths.EXPERIENCE_COVER" alt="Projects & Freelancing">
             </div>
-            
-            <div class="experience-heading-text-div" data-aos="fade-left">
+
+<!--            [attr.data-aos-delay]=DURATION_ENTER_ANIMATION-->
+            <div class="experience-heading-text-div" animateOnScroll="fadeInLeft">
                 <h1 class="experience-heading-text">
-                    {{ appConfig.experiencePageTitle }}
+                    {{ appConfig.experiencePageTitle | translate}}
                 </h1>
                 <p class="experience-header-detail-text subTitle">
-                    {{ appConfig.experiencePageDescription }}
+                    {{ appConfig.experiencePageDescription | translate}}
                 </p>
             </div>
         </div>
@@ -19,17 +20,18 @@
 
     @for (exps of appConfig.experienceSections; track $index) {
 
-        <div class="section-heading-text-div" data-aos="fade-up">
+<!--        [attr.data-aos-delay]=DURATION_ENTER_ANIMATION*2-->
+        <div class="section-heading-text-div" animateOnScroll="fadeInTop">
             <h1 class="section-heading-text">
-                {{ exps.experienceSectionTitle }}
+                {{ exps.experienceSectionTitle | translate}}
             </h1>
-    
+
             <p class="section-header-detail-text">
                 {{ exps.experienceSectionSubtitle }}
             </p>
         </div>
-    
-    
+
+
         <div class="experience-cards-div-main">
 
             @for (exp of exps.experiences; track $index) {

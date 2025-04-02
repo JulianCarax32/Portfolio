@@ -1,0 +1,33 @@
+@import '../../../css/variables.scss';
+
+h2 {
+    color: $text-violet;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+h3 {
+  color: $text-violet-light;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+p, span {
+  color: $theme-secondary;
+}
+
+@media (min-width: 768px) {
+    p {
+        text-align: left;
+        text-indent: -2rem;
+        padding-left: 2rem;
+    }
+}
+
+img {
+    border-radius: 5px;
+}

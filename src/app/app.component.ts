@@ -4,8 +4,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GlobalStatsService } from './services/global-stats/global-stats.service';
 import { AppConfig } from '../enums/app-data';
-import AOS from 'aos';
+// import AOS from 'aos';
 import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
+import {ScrollToBottomComponent} from "./components/scroll-to-bottom/scroll-to-bottom.component";
 
 
 
@@ -17,6 +18,7 @@ import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.c
         HeaderComponent,
         FooterComponent,
         ScrollToTopComponent,
+        ScrollToBottomComponent,
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss'
@@ -31,9 +33,9 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        AOS.init({
-            duration: 500,
-            once: true,
-        });
+        // AOS.init({
+        //     duration: 500,
+        //     once: true,
+        // });
     }
 }

@@ -109,7 +109,7 @@ For more detailed instructions, refer to the [Firebase Hosting documentation](ht
 - **Angular**: [Learn more](https://angular.dev/)
 - **SCSS**: [Learn more](https://sass-lang.com/)
 - **Tailwind CSS**: [Learn more](https://tailwindcss.com/)
-- **AOS (Animate on Scroll)**: [Learn more](https://michalsnik.github.io/aos/)
+- **[NO MORE, now project relies on Angular native animations] AOS (Animate on Scroll)**: [Learn more](https://michalsnik.github.io/aos/)
 
 ### Illustrations
 - Illustrations are sourced from [UnDraw](https://undraw.co/).

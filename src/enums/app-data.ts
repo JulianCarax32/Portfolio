@@ -9,31 +9,31 @@ import { AssetPaths } from "./asset-paths.enum";
 const SocialMediaLinks: ExternalSite[] = [
     {
         name: "Github",
-        link: "https://github.com/dhruvilrathod",
+        link: "https://github.com/JulianCarax32",
         simpleIconName: "github",
         backgroundColor: "#181717",
     },
     {
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/dhruvilrathod/",
+        link: "https://www.linkedin.com/in/ivantesoro32/",
         simpleIconName: "linkedin", // this icon is not available in simple icon v14
         backgroundColor: "#0066c8", // manually checked
     },
-    {
-        name: "LeetCode",
-        link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "leetcode",
-        backgroundColor: "#FFA116",
-    },
+    // {
+    //     name: "LeetCode",
+    //     link: "https://leetcode.com/dhruvilrathod/",
+    //     simpleIconName: "leetcode",
+    //     backgroundColor: "#FFA116",
+    // },
     {
         name: "Gmail",
-        link: "mailto:thedhruvilrathod@gmail.com",
+        link: "mailto:ivan.oroset@gmail.com",
         simpleIconName: "gmail",
         backgroundColor: "#EA4335",
     },
     {
         name: "Instagram",
-        link: "https://www.instagram.com/dhruvil.rthd/",
+        link: "https://www.instagram.com/fucksorte/",
         simpleIconName: "instagram",
         backgroundColor: "#FF0069",
     }
@@ -60,11 +60,17 @@ const FullstackSkills: ExternalSite[] = [
         backgroundColor: "#1572B6",
     },
     {
-        name: "Sass",
-        link: "https://sass-lang.com/",
-        simpleIconName: "sass",
-        backgroundColor: "#CC6699",
+        name: ".NET",
+        link: "https://dotnet.microsoft.com/",
+        simpleIconName: "dotnet",
+        backgroundColor: "#512BD4", //cercato a mano su simpleicons.org
     },
+    // {
+    //     name: "Sass",
+    //     link: "https://sass-lang.com/",
+    //     simpleIconName: "sass",
+    //     backgroundColor: "#CC6699",
+    // },
     {
         name: "NodeJS",
         link: "https://nodejs.org/",
@@ -84,11 +90,23 @@ const FullstackSkills: ExternalSite[] = [
         backgroundColor: "#000000",
     },
     {
-        name: "ThreeJS",
-        link: "https://threejs.org/",
-        simpleIconName: "threedotjs",
-        backgroundColor: "#000000",
+        name: "Android",
+        link: "https://www.android.com/",
+        simpleIconName: "android",
+        backgroundColor: "#3DDC84", //cercato a mano su simpleicons.org
     },
+    {
+        name: "iOS",
+        link: "https://www.apple.com/it/ios",
+        simpleIconName: "ios",
+        backgroundColor: "#000000", //cercato a mano su simpleicons.org
+    },
+    // {
+    //     name: "ThreeJS",
+    //     link: "https://threejs.org/",
+    //     simpleIconName: "threedotjs",
+    //     backgroundColor: "#000000",
+    // },
     {
         name: "Tailwind CSS",
         link: "https://tailwindcss.com/",
@@ -101,24 +119,24 @@ const FullstackSkills: ExternalSite[] = [
         simpleIconName: "bootstrap",
         backgroundColor: "#7952B3",
     },
-    {
-        name: "PrimeNG",
-        link: "https://primeng.org/",
-        simpleIconName: "primeng",
-        backgroundColor: "#DD0031",
-    },
+    // {
+    //     name: "PrimeNG",
+    //     link: "https://primeng.org/",
+    //     simpleIconName: "primeng",
+    //     backgroundColor: "#DD0031",
+    // },
 ];
 
 // Fullstack section
 const FullstackSection: SkillSection = {
-    sectionTitle: "Fullstack Development",
+    sectionTitle: "FULLSTACK_DEVELOPMENT",
     imagePath: AssetPaths.FULL_STACK_DEVELOPMENT_SVG,
     skillLinks: FullstackSkills,
     skillsList: [
-        "Building responsive website front-end using Angular",
-        "Developing custom and interactive 3D websites",
-        "Creating application backend in Node, Express & NestJS",
-        "Managing data safely with PostgreSQL, MongoDB and OracleDB",
+        "BUILDING_RESPONSIVE_WEBSITE_FRONT_END_USING_ANGULAR",
+        "CREATING_APPLICATION_BACKEND_IN_NODE_EXPRESS_DOT_NET",
+        "DEVELOPING_CUSTOM_AND_INTERACTIVE_MOBILE_APPS",
+        "MANAGING_DATA_SAFELY_WITH_POSTGRESQL_AND_OTHER_RELATIONAL_DBMS"
     ]
 }
 
@@ -130,12 +148,12 @@ const CloudSkills: ExternalSite[] = [
         simpleIconName: "googlecloud",
         backgroundColor: "#4285F4",
     },
-    {
-        name: "AWS",
-        link: "https://aws.amazon.com/",
-        simpleIconName: "amazonwebservices",
-        backgroundColor: "#232F3E",
-    },
+    // {
+    //     name: "AWS",
+    //     link: "https://aws.amazon.com/",
+    //     simpleIconName: "amazonwebservices",
+    //     backgroundColor: "#232F3E",
+    // },
     {
         name: "Firebase",
         link: "https://firebase.google.com/",
@@ -148,41 +166,41 @@ const CloudSkills: ExternalSite[] = [
         simpleIconName: "postgresql",
         backgroundColor: "#336791",
     },
-    {
-        name: "MongoDB",
-        link: "https://www.mongodb.com/",
-        simpleIconName: "mongodb",
-        backgroundColor: "#47A248",
-    },
-    {
-        name: "Docker",
-        link: "https://www.docker.com/",
-        simpleIconName: "docker",
-        backgroundColor: "#1488C6",
-    },
+    // {
+    //     name: "MongoDB",
+    //     link: "https://www.mongodb.com/",
+    //     simpleIconName: "mongodb",
+    //     backgroundColor: "#47A248",
+    // },
+    // {
+    //     name: "Docker",
+    //     link: "https://www.docker.com/",
+    //     simpleIconName: "docker",
+    //     backgroundColor: "#1488C6",
+    // },
     {
         name: "Render",
         link: "https://render.com/",
         simpleIconName: "render",
         backgroundColor: "#000000",
     },
-    {
-        name: "Heroku",
-        link: "https://www.heroku.com/",
-        simpleIconName: "heroku",
-        backgroundColor: "#430098",
-    },
+    // {
+    //     name: "Heroku",
+    //     link: "https://www.heroku.com/",
+    //     simpleIconName: "heroku",
+    //     backgroundColor: "#430098",
+    // },
 ];
 
 // Could section
 const CloudSection: SkillSection = {
-    sectionTitle: "Cloud Infra-Architecture",
+    sectionTitle: "CLOUD_INFRA_ARCHITECTURE",
     imagePath: AssetPaths.CLOUD_INFRASTRUCTURE_SVG,
     skillLinks: CloudSkills,
     skillsList: [
-        "Experience working on multiple cloud platforms including GCP, AWS, FireBase, and Render",
-        "Hosting and maintaining websites on FireBase hosting and GoDaddy along with integration of databases",
-        "Setting up email triggers and Googlesheet integration for streamline client inquiry",
+        "EXPERIENCE_WORKING_ON_MULTIPLE_CLOUD_PLATFORMS",
+        "HOSTING_AND_MAINTAINING_WEBSITES_WITH_CUSTOM_DOMAIN",
+        "SETTING_UP_SOFTWARE_INTEGRATIONS"
     ]
 }
 
@@ -216,90 +234,118 @@ const DesignSkills: ExternalSite[] = [
 
 // Design section
 const DesignSection: SkillSection = {
-    sectionTitle: "UI/UX Design",
+    sectionTitle: "UI_UX_DESIGN",
     imagePath: AssetPaths.UI_UX_DESIGN_SVG,
     skillLinks: DesignSkills,
     skillsList: [
-        "Designing highly attractive and responsive user interface for web applications",
-        "Customizing logo designs, creating visiting cards and virtual cards from scratch",
-        "Creating the flow of application functionalities to optimize user experience",
+        // "DESIGNING_HIGHLY_ATTRACTIVE_UI",
+        "CUSTOMIZING_LOGO_DESIGNS_AND_VIRTUAL_CARDS",
+        "CREATING_FLOW_OF_APPLICATION_FUNCTIONALITIES"
     ]
 }
 
 // Design skills
 const DigitalSolutionSkills: ExternalSite[] = [
-
+    {
+        name: "Gemini",
+        link: "https://www.gemini.google.com/",
+        simpleIconName: "googlegemini",
+        backgroundColor: "#8E75B2", //cercato a mano su simpleicons.org
+    },
+    {
+        name: "TP-Link",
+        link: "https://www.tp-link.com/",
+        simpleIconName: "tplink",
+        backgroundColor: "#4ACBD6", //cercato a mano su simpleicons.org
+    },
 ];
 
 // Design section
 const DigitalSolutionSection: SkillSection = {
-    sectionTitle: "Digital Solutions & Consultancy",
+    sectionTitle: "DIGITAL_SOLUTIONS_CONSULTANCY",
     imagePath: AssetPaths.DIGITAL_SOLUTIONS_SVG,
     skillLinks: DigitalSolutionSkills,
     skillsList: [
-        "Streamlining business operations with tools like Jira, offering automated workflows, and data-driven insights.",
-        "Centralizing business data within secure, interconnected platforms to facilitate informed decision-making",
-        "Helping local businesses enable real-time communication and task coordination through MS Teams and Outlook",
+        "HELPING_LOCAL_BUSINESSES_SETUP_NETWORKS",
+        "PROVIDING_RELIABLE_AND_CONFIDENTIAL_CONSULTANCY"
     ]
 }
 
 // Personal projects
 const PersonalProjects: ProjectSection = {
-    sectionTitle: "My Projects",
-    sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
+    sectionTitle: "MY_PROJECTS",
+    sectionSubtitle: "SHOWCASING_INNOVATIVE_SOLUTIONS_AND_REAL_WORLD_APPLICATIONS",
     entities: [
         {
-            title: "Web-Based 3D IFC File Viewer",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2022
+            title: "LITERALLY_THIS_PORTFOLIO",
+            coverImagePath: AssetPaths.PROJECT_THIS_ANGULAR_PORTFOLIO,
+            // liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
+            githubLink: "https://github.com/JulianCarax32/Portfolio",
+            description: "ANGULAR_BASED_PORTFOLIO_SHOWCASING_PROJECTS_AND_SKILLS",
+            techStack: ["Angular", "NginX", "Oracle Cloud"],
+            year: 2025
         },
         {
-            title: "Customizable Multi-Select Dropdown",
-            coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
-            githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
-            description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
-            techStack: ["Angular", "TypeScript", "SCSS"],
-            year: 2023,
+            title: "AUTOMATED_RESPONDER_FOR_HOTELS",
+            coverImagePath: AssetPaths.PROJECT_NO_MORE_CLICK_APP,
+            githubLink: "",
+            description: "AUTOMATED_TOOL_OPTIMIZING_FIRST_RESPONSE_FLOW",
+            techStack: ["Node.js", "MySQL", "Bootstrap"],
+            year: 2023
+        },
+        // {
+        //     title: "Angular + NestJS Boilerplate",
+        //     coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
+        //     githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
+        //     description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
+        //     techStack: ["Angular", "NestJS", "NgINX", "Docker"],
+        //     year: 2023
+        // },
+        // {
+        //     title: "Hospital Management System Dashboard",
+        //     coverImagePath: AssetPaths.PROJECT_HMS_APP,
+        //     githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
+        //     description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
+        //     techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
+        //     year: 2024
+        // },
+        // {
+        //     title: "Cross-Platform Music Player",
+        //     coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+        //     githubLink: "https://github.com/dhruvilrathod/music_player",
+        //     description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
+        //     techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
+        //     year: 2023
+        // }
+    ]
+}
+
+// Freelancing projects
+const ExtraProjects: ProjectSection = {
+    sectionTitle: "EXTRA_PASSIONS",
+    sectionSubtitle: "TRANSFORMING_PASSIONS_INTO_CREATIVE_SOLUTIONS",
+    entities: [
+        {
+            title: "NOT_ONLY_CODING_ALSO_DRAWING",
+            coverImagePath: AssetPaths.PROJECT_DRAWING,
+            githubLink: "https://www.instagram.com/fucksorte/",
+            description: "PERSONAL_JOURNEY_IN_DIGITAL_DRAWING",
+            techStack: ["Clip Studio Paint"],
+            year: 2021,
             branch: "resource-tree-utility"
         },
         {
-            title: "Learning Management System",
-            coverImagePath: AssetPaths.PROJECT_LMS_APP,
-            githubLink: "https://github.com/dhruvilrathod/lms-asite",
-            description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
-            techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
-            year: 2023
-        },
-        {
-            title: "Angular + NestJS Boilerplate",
-            coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
-            githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
-            description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
-            techStack: ["Angular", "NestJS", "NgINX", "Docker"],
-            year: 2023
-        },
-        {
-            title: "Hospital Management System Dashboard",
-            coverImagePath: AssetPaths.PROJECT_HMS_APP,
-            githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
-            description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
-            techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
-            year: 2024
-        },
-        {
-            title: "Cross-Platform Music Player",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/dhruvilrathod/music_player",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
-            techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
-            year: 2023
+            title: "NOT_ONLY_CODING_ALSO_SINGING",
+            coverImagePath: AssetPaths.PROJECT_SPOTIFY,
+            githubLink: "https://open.spotify.com/intl-it/artist/4SlSs9WDkQsLmfM0UdLFWz",
+            description: "PASSION_PROJECT_ROOTED_IN_MUSICAL_JOURNEY",
+            techStack: ["Distrokid"],
+            year: 2019,
+            branch: "resource-tree-utility"
         }
     ]
 }
+
 
 // Freelancing projects
 const FreelancingProjects: ProjectSection = {
@@ -324,7 +370,7 @@ const FreelancingProjects: ProjectSection = {
         },
         {
             title: "RAS Finance Website + CMS",
-            coverImagePath: AssetPaths.PROJECT_RAS_FINANCE,
+            coverImagePath: AssetPaths.PROJECT_DRAWING,
             liveLink: "https://rasfinance.com.au/",
             description: "📈 Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
@@ -344,43 +390,64 @@ const FreelancingProjects: ProjectSection = {
 
 // Job experience
 const JobExperience: ExperienceSection = {
-    experienceSectionTitle: "Work Experience",
+    experienceSectionTitle: "WORK_EXPERIENCE",
     experiences: [
         {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgLink: "https://www.passepartout.net/",
+            orgLogoPath: AssetPaths.WORK_PASSEPARTOUT_LOGO,
+            orgName: "PASSEPARTOUT_ORG_NAME",
             positions: [
                 {
-                    positionName: "Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
+                    positionName: "PASSEPARTOUT_POSITION",
+                    duration: "PASSEPARTOUT_DURATION",
+                    location: "PASSEPARTOUT_LOCATION",
                     locationType: "On-Site",
-                    jobType: "Part-time",
+                    jobType: "Full-time",
                     workPoints: [
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+                        "PASSEPARTOUT_TASK_1",
+                        "PASSEPARTOUT_TASK_2",
+                        "PASSEPARTOUT_TASK_3",
+                        "PASSEPARTOUT_TASK_4"
                     ]
                 }
             ]
         },
         {
-            orgLink: "https://www.asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "https://www.mlhotelcattolica.com/aragosta/it/index",
+            orgLogoPath: AssetPaths.WORK_ARAGOSTA_LOGO,
+            orgName: "ARAGOSTA_ORG_NAME",
             positions: [
                 {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
+                    positionName: "ARAGOSTA_POSITION",
+                    duration: "ARAGOSTA_DURATION",
+                    location: "ARAGOSTA_LOCATION",
+                    locationType: "On-Site",
                     jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "ARAGOSTA_TASK_1",
+                        "ARAGOSTA_TASK_2",
+                        "ARAGOSTA_TASK_3",
+                        "ARAGOSTA_TASK_4",
+                        "ARAGOSTA_TASK_5"
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "https://www.zucchetti.it/",
+            orgLogoPath: AssetPaths.WORK_ZUCCHETTI_LOGO,
+            orgName: "ZUCCHETTI_ORG_NAME",
+            positions: [
+                {
+                    positionName: "ZUCCHETTI_POSITION",
+                    duration: "ZUCCHETTI_DURATION",
+                    location: "ZUCCHETTI_LOCATION",
+                    locationType: "On-Site",
+                    jobType: "Full-time",
+                    workPoints: [
+                        "ZUCCHETTI_TASK_1",
+                        "ZUCCHETTI_TASK_2",
+                        "ZUCCHETTI_TASK_3"
                     ]
                 }
             ]
@@ -388,13 +455,14 @@ const JobExperience: ExperienceSection = {
     ]
 }
 
+
 // Freenacing Experience
 const FreelancingExperience: ExperienceSection = {
     experienceSectionTitle: "Freelancing",
     experiences: [
         {
             orgLink: "https://southaustraliatiling.com.au/",
-            orgLogoPath: AssetPaths.WORK_SA_TILING_LOGO,
+            orgLogoPath: AssetPaths.WORK_ZUCCHETTI_LOGO,
             orgName: "South Australia Tiling",
             positions: [
                 {
@@ -448,7 +516,7 @@ const FreelancingExperience: ExperienceSection = {
         },
         {
             orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
+            orgLogoPath: AssetPaths.WORK_PASSEPARTOUT_LOGO,
             orgName: "Acquire Conveyancing",
             positions: [
                 {
@@ -470,58 +538,31 @@ const FreelancingExperience: ExperienceSection = {
 
 // Internships Experience
 const InternshipExperience: ExperienceSection = {
-    experienceSectionTitle: "Internships",
+    experienceSectionTitle: "INTERNSHIPS",
     experiences: [
         {
-            orgLink: "https://asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "https://www.icscomputer.it/",
+            orgLogoPath: AssetPaths.WORK_ICS_COMPUTER_LOGO,
+            orgName: "ICS_COMPUTER",
             positions: [
                 {
-                    positionName: "UI Developer Intern",
-                    duration: "Feb 2023 - May 2023",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
-                    jobType: "Full-time",
-                    workPoints: [
-                        "Led an 11-member team to design and implement the frontend architecture of an LMS using Angular, following the latest methodologies and best practices. 🚀💻",
-                        "Gained expertise in Angular, jQuery, SCSS, and DSA through personalized training and hands-on assignments during the internship. 🌟📊✨",
-                    ]
-                },
-                {
-                    positionName: "Software Engineering Intern",
-                    duration: "Jun 2022 — Jul 2022",
-                    location: "Ahmedabad, India",
+                    positionName: "JR_IT_TECHNICIAN",
+                    duration: "HIGH_SCHOOL_INTERNSHIP",
+                    location: "ICS_LOCATION",
                     locationType: "On-Site",
-                    jobType: "Full-time",
-                    workPoints: [
-                        "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. 🌐🌳📐",
-                        "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. 🚀💻✨",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://workxmate.com/",
-            orgLogoPath: AssetPaths.WORK_WORKXMATE_LOGO,
-            orgName: "WorkXMate Technologies Pvt. Ltd.",
-            positions: [
-                {
-                    positionName: "Angular Developer Internship",
-                    duration: "Feb 2022 — Mar 2022",
-                    location: "Noida, India",
-                    locationType: "Remote",
                     jobType: "Part-time",
                     workPoints: [
-                        "Designed and implemented an optimized, cross-browser-compatible Attendance Management Module. 🌐✔️",
-                        "Built a RESTful Node.js server integrated with Oracle DB for seamless code migration. 🚀📊",
-                        "Developed intuitive web forms with robust validation and error handling for a smooth user experience. 🖋️⚙️✨",
+                        "PROVIDED_HANDS_ON_SUPPORT_IN_SOFTWARE_REPAIR",
+                        "ASSISTED_IN_NETWORK_MAINTENANCE",
+                        "GRATEFUL_FOR_TEAM_GUIDANCE",
                     ]
                 }
             ]
         },
     ]
 }
+
+
 
 // Community Involvement
 const CommunityInvolvement: ProjectSection = {
@@ -556,84 +597,102 @@ const AchievementInvolvement: ProjectSection = {
 
 // Degrees
 const BachelorsDegree: EducationSection = {
-    degreeName: "Bachelor of Engineering",
-    majorName: "Computer Engineering",
-    duration: "Jul 2019 - May 2023",
-    universityName: "Gujarat Technological University (GTU)",
-    campusName: "VGEC",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
-    gpa: "6.9 / 7.0",
-    websiteLink: "https://www.gtu.ac.in/",
+    degreeName: "HIGH_SCHOOL_DIPLOMA",
+    majorName: "INFORMATION_TECHNOLOGY",
+    duration: "SEP_2013_JUN_2018",
+    universityName: "ITTS Rimini",
+    campusName: "O. Belluzzi - L. Da Vinci",
+    logoImagePath: AssetPaths.EDUCATION_ITIS_LOGO,
+    gpa: "96 / 100",
+    websiteLink: "https://www.ittsrimini.edu.it/",
     studyPoints: [
-        "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
-        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
-        "Gained insights into Big Data Analytics, Artificial Intelligence, Data Mining, and Data Visualization, equipping skills for modern computing challenges. 🚀📊",
+        "FUNDAMENTALS_OF_COMPUTER_SCIENCE_AND_PROGRAMMING",
+        "NETWORKS_SYSTEMS_AND_SECURITY",
+        // "HANDS_ON_EXPERIENCE_THROUGH_PROJECT_BASED_LEARNING_1"
     ]
 }
+
 
 const MastersDegree: EducationSection = {
-    degreeName: "Master of Information Technology",
-    majorName: "Cyber Security",
-    duration: "Feb 2024 - Dec 2025",
-    universityName: "University of South Australia (UniSA)",
-    campusName: "Mawson Lakes",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
-    gpa: "6.7 / 7.0",
-    websiteLink: "https://i.unisa.edu.au/students/",
+    degreeName: "BACHELORS_DEGREE_IN_INFORMATION_TECHNOLOGY",
+    majorName: "COMPUTER_SCIENCE_AND_ENGINEERING",
+    duration: "SEP_2018_MAR_2023",
+    universityName: "Alma Mater Studiorum of Bologna (UniBO)",
+    campusName: "Campus di Cesena",
+    logoImagePath: AssetPaths.EDUCATION_UNIBO_LOGO,
+    gpa: "98 / 110",
+    websiteLink: "https://www.unibo.it/it/campus-cesena",
     studyPoints: [
-        "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
-        "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
-        "Developed strategic skills through Consultancy, Enterprise Security, and hands-on labs experience with tech-giants including Cisco and FortiGate. 🚀",
+        "FOUNDATION_IN_SOFTWARE_ENGINEERING",
+        "DEEPENING_KNOWLEDGE_IN_SYSTEMS_NETWORKS_AND_SECURITY",
+        "HANDS_ON_EXPERIENCE_THROUGH_PROJECT_BASED_LEARNING_1"
     ]
 }
 
+const OtherCertificates: EducationSection = {
+    degreeName: "PRELIMINARY_ENGLISH_TEST",
+    majorName: "UK_NATIONAL_QUALIFICATIONS_FRAMEWORK",
+    duration: "2018",
+    universityName: "Cambridge English Level 1 Certificate in ESOL International - Preliminary",
+    campusName: "Rimini",
+    logoImagePath: AssetPaths.EDUCATION_CAMBRIDGE_LOGO,
+    gpa: "“Pass with Distinction” (162 / 170)",
+    websiteLink: "https://www.cambridgeenglish.org/it/exams-and-tests/preliminary/",
+    studyPoints: [
+        "ENGLISH_LANGUAGE_SPECIALIZATION"
+    ]
+}
 
 
 export const AppConfig = {
     loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
-    logoName: "Dhruvil Rathod",         // Signature font logo name in header
-    name: "Dhruvil Rathod",             // your name
-    emailId: "thedhruvilrathod@gmail.com",  // your email id
+    logoName: "Ivan Tesoro",         // Signature font logo name in header
+    topSaluto: "Heilà,",
+    topName: "sono Ivan",             // your name with presentation
+    footerName: "Ivan Tesoro",
+    emailId: "ivantesoro@hotmail.it",  // your email id
 
     // Google Form Contact Link
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
 
     // Home page
-    professionalTitle: "Development | Cyber Security | Freelancing",
-    professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
-    githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
-    portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
+    professionalTitle: "PROFESSIONAL_TITLE",
+    professionalSummary: "SOFTWARE_ENGINEER_PASSIONATE_ABOUT_COMPUTER_SCIENCE_AND_ITS_EVOLUTION",
+    githubProfile: "https://github.com/JulianCarax32/",              // Your github profile link
+    portfolioRepository: "https://github.com/JulianCarax32/Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
-    aboutMe: [                          // all the sections you want to show under "What I do?". 
+    aboutMe: [                          // all the sections you want to show under "What I do?".
         FullstackSection,
         CloudSection,
-        DesignSection,
         DigitalSolutionSection,
+        DesignSection,
     ],
 
     // Projects page
-    projectsPageTitle: "Projects & Freelancing",    // Title of projects page
-    projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
+    projectsPageTitle: "PROJECTS_AND_FREELANCING",    // Title of projects page
+    projectsPageDescription: "PROJECTS_DESCRIPTION",
     projectSections: [                  // Define and add a custom section if needed
-        FreelancingProjects,
+        //FreelancingProjects,
         PersonalProjects,
+        ExtraProjects,
     ],
 
     // Experience page
-    experiencePageTitle: "My Works, Internships and Freelancing",
-    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
+    experiencePageTitle: "MY_WORKS_INTERNSHIPS_AND_FREELANCING",
+    experiencePageDescription: "EXPERIENCE_DESCRIPTION",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
         InternshipExperience,
-        FreelancingExperience,
+        // FreelancingExperience,
     ],
 
     // Education page
-    educationPageTitle: "Degrees and Qualifications",
-    educationPageDescription: "🎓 A Journey of Continuous Learning: Building Skills, Solving Problems, and Shaping the Future 🌟",
+    educationPageTitle: "DEGREES_AND_QUALIFICATIONS",
+    educationPageDescription: "EDUCATION_DESCRIPTION",
     educationSections: [
         MastersDegree,
         BachelorsDegree,
+        OtherCertificates
     ],
 
 

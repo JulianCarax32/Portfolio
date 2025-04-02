@@ -1,20 +1,22 @@
 <div class="social-media-div">
 
     @for (s of appConfig.socialMedia; track $index) {
-        <a 
-            [href]="s.link" 
+        <a
+            [href]="s.link"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
             class="icon-button"
             [title]="s.name"
             >
-    
+
             <div class="img-container" [ngStyle]="{'backgroundColor': s.backgroundColor }">
-                <img 
-                    src="https://unpkg.com/simple-icons@v13/icons/{{ s.simpleIconName }}.svg"
+<!--                src="https://unpkg.com/simple-icons@v13/icons/{{ s.simpleIconName }}.svg"-->
+<!--                https://github.com/simple-icons/simple-icons/releases/tag/13.21.0-->
+                <img
+                    src="assets/icons/used/{{ s.simpleIconName }}.svg"
                     />
             </div>
-    
+
         </a>
     }
 </div>

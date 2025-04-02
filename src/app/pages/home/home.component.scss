@@ -32,14 +32,15 @@
 
 .greeting-text {
     color: $theme-blue;
-    margin-top: 80px;
+    //margin-top: 80px;
+    margin-top: 10px;
     font-size: 70px;
     line-height: 1.1;
     font-family: "Google Sans Bold";
 }
 
 .greeting-nickname {
-    color: $theme-blue;
+    color: $text-violet;
     font-size: 30px;
     font-family: "Google Sans Bold Italic";
 }
@@ -107,5 +108,97 @@
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+}
+
+/**
+  * FORZO il preload dei font
+ */
+
+#font-preloader {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.font-agustina {
+    font-family: "Agustina Regular", sans-serif;
+}
+
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-google-sans-bold {
+    font-family: "Google Sans Bold", sans-serif;
+}
+
+.font-google-sans-bold-italic {
+    font-family: "Google Sans Bold Italic", sans-serif;
+}
+
+.font-google-sans-italic {
+    font-family: "Google Sans Italic", sans-serif;
+}
+
+.font-google-sans-medium {
+    font-family: "Google Sans Medium", sans-serif;
+}
+
+.font-google-sans-medium-italic {
+    font-family: "Google Sans Medium Italic", sans-serif;
+}
+
+.font-google-sans-regular {
+    font-family: "Google Sans Regular", sans-serif;
+}
+
+#image-preloader {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/**
+  * FORZO il preload dei font
+ */
+.preload-img {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+}
+
+.wave-emoji {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-10deg);
+    }
+    20% {
+        transform: rotate(12deg);
+    }
+    30% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(9deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
     }
 }
