@@ -3,11 +3,11 @@
 </p>
 
 <h1 align="center"> Angular Master Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio template developed with Angular and SCSS! <h3>
+<h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio template developed with Angular and SCSS! </h3>
 
 <p align="center"> 
     <a href="https://angular-master-portfolio.web.app/" target="_blank">
-    <img src="public/assets/images/ng-master-ss.png"></img>
+    <img src="public/assets/images/preview_live_website.png"></img>
   </a>
 </p>
 
@@ -21,7 +21,7 @@
 ✔️ Experience\
 ✔️ Education
 
-To view a live example, **[click here](https://angular-master-portfolio.web.app/)**
+To view a live example, **[click here](https://ivantesoro.com/)**
 
 
 ## 🚀 Getting Started
@@ -35,8 +35,8 @@ Follow the official Angular documentation to [download and install Angular](http
 ### Clone and Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dhruvilrathod/Angular-Master-Portfolio
-   cd Angular-Master-Portfolio
+   git clone https://github.com/JulianCarax32/portfolio
+   cd portfolio
    ```
 
 2. Install dependencies:
@@ -55,7 +55,7 @@ Follow the official Angular documentation to [download and install Angular](http
 ## 🛠 High-Level Customization
 
 ### Data Customization
-- All portfolio data is sourced from a file named `app-data.enum.ts`. Use your editor’s search shortcut to locate this file.
+- Almost all portfolio data is sourced from a file named `app-data.enum.ts`. Use your editor’s search shortcut to locate this file.
 - Modify any section by updating the corresponding variable object in this file. To understand the details you can add to each section, refer to the predefined interfaces.
 
 ### Icons
@@ -80,7 +80,7 @@ ng build
 ### Deploying to Firebase Hosting
 This project is hosted using **Firebase Hosting**. Follow these steps to deploy:
 
-1. **Create a Firebase Project**
+1. **Create a Firebase Project (to be honest I personally work with Oracle Cloud but maybe Firebase is more popular)**
    - Visit [Firebase Console](https://console.firebase.google.com/) and create a new project.
    - Add a web app to your Firebase project.
 
@@ -109,8 +109,6 @@ For more detailed instructions, refer to the [Firebase Hosting documentation](ht
 - **Angular**: [Learn more](https://angular.dev/)
 - **SCSS**: [Learn more](https://sass-lang.com/)
 - **Tailwind CSS**: [Learn more](https://tailwindcss.com/)
-- **[NO MORE, now project relies on Angular native animations] AOS (Animate on Scroll)**: [Learn more](https://michalsnik.github.io/aos/)
-
 ### Illustrations
 - Illustrations are sourced from [UnDraw](https://undraw.co/).
 
@@ -121,3 +119,4 @@ Happy Coding! 🎉
 # References 👏🏻
 
 - Some Design Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio) and [Ashutosh Hathidara's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
+- Base structure and inspiration: https://github.com/dhruvilrathod/Angular-Master-Portfolio
