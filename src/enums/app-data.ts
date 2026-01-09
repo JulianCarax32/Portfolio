@@ -277,6 +277,14 @@ const PersonalProjects: ProjectSection = {
     sectionSubtitle: "SHOWCASING_INNOVATIVE_SOLUTIONS_AND_REAL_WORLD_APPLICATIONS",
     entities: [
         {
+            title: "BEACH_MANAGEMENT_SOFTWARE",
+            coverImagePath: AssetPaths.PROJECT_JUSTBEACH,
+            githubLink: "https://justbeach.org", //lo so non è github ma ci sta
+            description: "JUSTBEACH_SHOWCASING_PROJECTS_AND_SKILLS",
+            techStack: ["Angular", "Express", "Oracle Cloud"],
+            year: "2025 - 2026"
+        },
+        {
             title: "LITERALLY_THIS_PORTFOLIO",
             coverImagePath: AssetPaths.PROJECT_THIS_ANGULAR_PORTFOLIO,
             // liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
