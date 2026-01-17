@@ -6,7 +6,7 @@
 <h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio template developed with Angular and SCSS! </h3>
 
 <p align="center"> 
-    <a href="https://angular-master-portfolio.web.app/" target="_blank">
+    <a href="https://ivantesoro.com" target="_blank">
     <img src="public/assets/images/preview_live_website.png"></img>
   </a>
 </p>
