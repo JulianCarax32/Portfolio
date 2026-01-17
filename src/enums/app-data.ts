@@ -282,7 +282,7 @@ const PersonalProjects: ProjectSection = {
             githubLink: "https://justbeach.org", //lo so non è github ma ci sta
             description: "JUSTBEACH_SHOWCASING_PROJECTS_AND_SKILLS",
             techStack: ["Angular", "Express", "Oracle Cloud"],
-            year: "2025 - 2026"
+            year: "2026"
         },
         {
             title: "LITERALLY_THIS_PORTFOLIO",

@@ -24,7 +24,7 @@ export enum AssetPaths {
     WORK_KIWI_LOGO = "assets/experience-images/kiwi-logo.png",
     WORK_ZUCCHETTI_LOGO = "https://www.zucchetti.it/it/templates/zportal/blocks/img/zucchetti-logo.svg",
     WORK_RAS_LOGO = "assets/experience-images/ras-logo.png",
-    WORK_ICS_COMPUTER_LOGO = "https://www.icscomputer.it/images/logo.png",
+    WORK_ICS_COMPUTER_LOGO = "https://icshoreca.odoo.com/web/image/website/1/logo/ICS%20HO.RE.CA?unique=13efc7a",
     WORK_ADVENT_OF_CODE_LOGO = "assets/experience-images/advent-of-code-logo.jpeg",
     EDUCATION_COVER = "assets/illustrations/EducationCover.svg",
     EDUCATION_UNIBO_LOGO = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6ovnslBH7pSZn5qtheOjLYMIGCDWiFaKcA&s",
