@@ -1,5 +1,5 @@
 export enum AssetPaths {
-    RESUME_IT = "censored_CV_Europeo_2024_2025_compressed.pdf",
+    RESUME_IT = "censored_CV_Europeo_2025_2026_compressed.pdf",
     FEELING_PROUD_SVG = "assets/illustrations/FeelingProud.svg",
     DIGITAL_SOLUTIONS_SVG = "assets/illustrations/DigitalSolutions.svg",
     FULL_STACK_DEVELOPMENT_SVG = "assets/illustrations/FullStackDevelopment.svg",
