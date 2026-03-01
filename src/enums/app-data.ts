@@ -285,6 +285,14 @@ const PersonalProjects: ProjectSection = {
             year: "2026"
         },
         {
+            title: "HOTEL_FRANCA_TITLE",
+            coverImagePath: AssetPaths.PROJECT_HOTEL_FRANCA,
+            githubLink: "https://hotelfrancamisano.com",
+            description: "HOTEL_FRANCA_SHOWCASING_PROJECTS_AND_SKILLS",
+            techStack: ["Angular", "NginX", "Oracle Cloud"],
+            year: "2026"
+        },
+        {
             title: "LITERALLY_THIS_PORTFOLIO",
             coverImagePath: AssetPaths.PROJECT_THIS_ANGULAR_PORTFOLIO,
             // liveLink: "https://dhruvilrathod.github.io/webifcviewer/",

@@ -4,23 +4,18 @@
     "CREATING_APPLICATION_BACKEND_IN_NODE_EXPRESS_DOT_NET": "Creazione del backend dell'applicazione in Node, Express, .NET",
     "DEVELOPING_CUSTOM_AND_INTERACTIVE_MOBILE_APPS": "Sviluppo di applicazioni mobili personalizzate e interattive (Android, iOS...) in base alle esigenze del cliente",
     "MANAGING_DATA_SAFELY_WITH_POSTGRESQL_AND_OTHER_RELATIONAL_DBMS": "Gestione sicura dei dati con PostgreSQL e altri DBMS relazionali",
-
     "CLOUD_INFRA_ARCHITECTURE": "Architettura Cloud",
     "EXPERIENCE_WORKING_ON_MULTIPLE_CLOUD_PLATFORMS": "Esperienza nell'utilizzo di diverse piattaforme cloud tra cui GCP, Oracle Cloud, FireBase e Render",
     "HOSTING_AND_MAINTAINING_WEBSITES_WITH_CUSTOM_DOMAIN": "Ospitare e mantenere siti web con dominio personalizzato",
     "SETTING_UP_SOFTWARE_INTEGRATIONS": "Configurazione di integrazioni software in base alle esigenze e ai requisiti del progetto",
-
     "UI_UX_DESIGN": "Design UI/UX",
     "DESIGNING_HIGHLY_ATTRACTIVE_UI": "Progettazione di interfacce utente altamente personalizzate e reattive per applicazioni web",
     "CUSTOMIZING_LOGO_DESIGNS_AND_VIRTUAL_CARDS": "Design dei loghi e delle icone per fornire una linea di stile conforme all'attitudine del progetto",
     "CREATING_FLOW_OF_APPLICATION_FUNCTIONALITIES": "Organizzazione del flusso delle funzionalità dell'applicazione per ottimizzare l'esperienza utente",
-
     "DIGITAL_SOLUTIONS_CONSULTANCY": "Soluzioni Digitali & Consulenza",
     "HELPING_LOCAL_BUSINESSES_SETUP_NETWORKS": "Collaborazione con le imprese locali nell'installazione di reti, connessioni remote e videosorveglianza",
     "PROVIDING_RELIABLE_AND_CONFIDENTIAL_CONSULTANCY": "Fornitura di consulenze affidabili e confidenziali per progetti personali e aziendali",
-
     "WORK_EXPERIENCE": "Esperienza Lavorativa",
-
     "PASSEPARTOUT_ORG_NAME": "Passepartout",
     "PASSEPARTOUT_POSITION": "Software Engineer",
     "PASSEPARTOUT_DURATION": "Feb 2024 - Presente",
@@ -31,7 +26,6 @@
     "PASSEPARTOUT_TASK_2": "Sviluppate soluzioni full-stack con .NET Framework, lavorando con API REST, LINQ e reflection. 🔄",
     "PASSEPARTOUT_TASK_3": "Creato interfacce responsive in Angular ottimizzate per Desktop, Tablet e Mobile. 📱💻",
     "PASSEPARTOUT_TASK_4": "Integrato MAUI per lo sviluppo cross-platform, con supporto nativo minimo in Kotlin e Swift per superare limitazioni tecniche. 🔗",
-
     "ARAGOSTA_ORG_NAME": "Hotel Aragosta (Cattolica)",
     "ARAGOSTA_POSITION": "IT Manager",
     "ARAGOSTA_DURATION": "Set 2023 - Giu 2017 (~4 mesi all'anno)",
@@ -43,7 +37,6 @@
     "ARAGOSTA_TASK_3": "Implementato e mantenuto reti Wi-Fi, infrastrutture LAN e Windows Server per l'accesso centralizzato ai dati. 🌐",
     "ARAGOSTA_TASK_4": "Configurato VMWare per ambienti virtualizzati, impostato VPN e gestito l'accesso remoto tramite RDP. 🔧",
     "ARAGOSTA_TASK_5": "Installato e gestito sistemi CCTV, software di prenotazione e sistemi di controllo accessi in vari hotel. 🔐",
-
     "ZUCCHETTI_ORG_NAME": "Zucchetti",
     "ZUCCHETTI_POSITION": "Jr Software Engineer",
     "ZUCCHETTI_DURATION": "Mar 2020 - Mar 2021",
@@ -53,7 +46,6 @@
     "ZUCCHETTI_TASK_1": "Acquisita esperienza pratica nei sistemi di gestione, fiscali e finanziari dal punto di vista di uno sviluppatore, utilizzando anche strumenti come Site Painter e Portal Studio. 💻",
     "ZUCCHETTI_TASK_2": "Lavorato con tecnologie come Java, JavaScript, HTML, CSS e SQL, occupandomi sia dello sviluppo lato server che lato client, con un focus su database relazionali (PostgreSQL, MySQL) e pagine web dinamiche e adattabili. 🌐",
     "ZUCCHETTI_TASK_3": "Le attività principali includevano la risoluzione di bug, il restyling e la riorganizzazione di applicazioni legacy, e il supporto allo sviluppo di software personalizzati in base alle esigenze del cliente. 🔧",
-
     "INTERNSHIPS": "Tirocini",
     "ICS_COMPUTER": "ICS Computer",
     "JR_IT_TECHNICIAN": "Tecnico IT Junior",
@@ -62,42 +54,38 @@
     "PROVIDED_HANDS_ON_SUPPORT_IN_SOFTWARE_REPAIR": "Fornito supporto pratico nella riparazione software, inclusa rimozione virus, pulizia disco e recupero dati, garantendo prestazioni ottimali del sistema. 🖥️",
     "ASSISTED_IN_NETWORK_MAINTENANCE": "Assistenza nella manutenzione di reti e supporto IT per le imprese locali, acquisendo esperienza pratica nell'amministrazione dei sistemi. 🌐",
     "GRATEFUL_FOR_TEAM_GUIDANCE": "Grato per la guida del team durante queste settimane, che mi ha dato una forte impronta iniziale nel campo IT e una comprensione più profonda del supporto tecnico e della gestione delle infrastrutture. 🙌🚀",
-
     "MY_PROJECTS": "I Miei Progetti",
     "SHOWCASING_INNOVATIVE_SOLUTIONS_AND_REAL_WORLD_APPLICATIONS": "Spero di aggiungerne altri a breve: intanto \"non è molto ma... è un lavoro onesto.\" ⌛",
     "LITERALLY_THIS_PORTFOLIO": "Letteralmente questo portfolio!",
     "BEACH_MANAGEMENT_SOFTWARE": "Software di Beach Management",
     "ANGULAR_BASED_PORTFOLIO_SHOWCASING_PROJECTS_AND_SKILLS": "📂 Un portfolio basato su Angular, completamente reattivo, che mostra progetti e competenze. Distribuito su Oracle Cloud, servito con Nginx per prestazioni ottimali e progettato per un'esperienza utente senza interruzioni. 🚀",
     "JUSTBEACH_SHOWCASING_PROJECTS_AND_SKILLS": "⛱️ Un software gestionale minimale sviluppato con Angular, caratterizzato da un'architettura mobile-first per ottimizzare i flussi di prenotazione e il monitoraggio dei pagamenti di uno stabilimento balneare. 📊",
+    "HOTEL_FRANCA_TITLE": "Hotel Franca Misano",
+    "HOTEL_FRANCA_SHOWCASING_PROJECTS_AND_SKILLS": "Un sito web moderno e responsivo sviluppato su misura per un hotel a 3 stelle, con forte focus sulle prestazioni in campo mobile, sull'integrazione dinamica lato SEO e per fornire un'esperienza visivamente molto gradevole.",
     "AUTOMATED_RESPONDER_FOR_HOTELS": "Risponditore automatico per hotel",
     "AUTOMATED_TOOL_OPTIMIZING_FIRST_RESPONSE_FLOW": "🏨 Utilizzando modelli predefiniti, integrazione dinamica dei dati e regole configurabili, il tool ottimizza il flusso della prima risposta, permettendo comunque aggiustamenti manuali quando necessario. 🚀",
-
     "EXTRA_PASSIONS": "Extra / Passioni",
     "TRANSFORMING_PASSIONS_INTO_CREATIVE_SOLUTIONS": "🚀 Trasformare le passioni in soluzioni creative: Musica, Disegno e voglia di migliorare.",
     "NOT_ONLY_CODING_ALSO_DRAWING": "Non solo coding, anche... disegno!",
     "PERSONAL_JOURNEY_IN_DIGITAL_DRAWING": "🎨 Un viaggio personale nel disegno digitale che è iniziato anni fa, guidato dalla mia passione per l'arte. Un ottimo modo per esplorare la creatività e immergermi nel piacere di affinare qualcosa di unico. (Ho anche disegnato un logo per le magliette dell'Aragosta!) 🖌️✨",
     "NOT_ONLY_CODING_ALSO_SINGING": "Non solo coding, anche... canto!",
     "PASSION_PROJECT_ROOTED_IN_MUSICAL_JOURNEY": "🎵 Un progetto passionale radicato in un percorso musicale che è iniziato anni fa e, nonostante non sia più un gran pubblicatore... resto un fedele innamorato. La musica è sempre stata una via creativa: si tratta di espressione, crescita e riequilibrio. \uD83C\uDF31\uD83C\uDFA7",
-
     "HIGH_SCHOOL_DIPLOMA": "Diploma di scuola superiore",
     "INFORMATION_TECHNOLOGY": "Indirizzo informatico",
     "SEP_2013_JUN_2018": "Set 2013 - Giu 2018",
     "FUNDAMENTALS_OF_COMPUTER_SCIENCE_AND_PROGRAMMING": "Fondamenti di Informatica e Programmazione, con focus su linguaggi come C, C# e SQL, logica computazionale e sviluppo software di base. 💻🔍",
     "NETWORKS_SYSTEMS_AND_SECURITY": "Reti, Sistemi e Sicurezza, con conoscenze in configurazione di reti, amministrazione di sistemi, cybersecurity e gestione di database. 🌐🛡️",
     "HANDS_ON_EXPERIENCE_THROUGH_PROJECT_BASED_LEARNING_1": "Esperienza pratica e apprendimento basato su progetti attraverso laboratori, sviluppo di applicazioni, risoluzione di problemi hardware/software e simulazioni di ambienti IT reali. 🛠️🚀",
-
     "BACHELORS_DEGREE_IN_INFORMATION_TECHNOLOGY": "Laurea in Ingegneria e Scienze Informatiche",
     "COMPUTER_SCIENCE_AND_ENGINEERING": "Triennale",
     "SEP_2018_MAR_2023": "Set 2018 - Mar 2023",
     "FOUNDATION_IN_SOFTWARE_ENGINEERING": "Fondamenta in Ingegneria del Software, con competenze in algoritmi, strutture dati, programmazione web, programmazione ad oggeti e architetture di sistema. 💻⚙️",
     "DEEPENING_KNOWLEDGE_IN_SYSTEMS_NETWORKS_AND_SECURITY": "Approfondimento delle conoscenze in Sistemi, Reti e Sicurezza, con focus su reti informatiche, cloud computing e gestione dell'infrastruttura IT. 🔗🛡️",
     "HANDS_ON_EXPERIENCE_THROUGH_PROJECT_BASED_LEARNING_2": "Esperienza pratica e apprendimento basato su progetti di laboratorio, sviluppo software e analisi dei dati, preparandosi per ruoli in aziende tecnologiche ed all'avanguardia. 🚀💡",
-
     "PRELIMINARY_ENGLISH_TEST": "Preliminary English Test",
     "UK_NATIONAL_QUALIFICATIONS_FRAMEWORK": "Quadro Nazionale delle Qualifiche del Regno Unito",
     "PASS_WITH_DISTINCTION": "“Pass con distinzione” (162 / 170)",
     "ENGLISH_LANGUAGE_SPECIALIZATION": "Specializzazione in Lingua Inglese 📚",
-
     "IVAN_TESORO": "Ivan Tesoro",
     "PROFESSIONAL_TITLE": "Sviluppo Software | Gestione Reti | Freelancing",
     "SOFTWARE_ENGINEER_PASSIONATE_ABOUT_COMPUTER_SCIENCE_AND_ITS_EVOLUTION": "Un ingegnere del software appassionato di informatica e della sua evoluzione, con esperienza nello sviluppo full-stack di soluzioni di alta qualità focalizzate sulle esigenze dei più diversi utenti.",
@@ -114,21 +102,17 @@
     "EDUCATION_DESCRIPTION": "🎓 Un viaggio di apprendimento continuo: Costruire competenze, risolvere problemi e plasmare il futuro 🌟",
     "ACHIEVEMENTS": "Traguardi",
     "ACHIEVEMENTS_DESCRIPTION": "🚀 Traguardi, Contributi e Impatto: Promuovere l'innovazione, coinvolgere le comunità e fare la differenza 🌍",
-
     "Home": "Home",
     "Experience": "Esperienze",
     "Education": "Studi",
     "Projects": "Progetti",
     "Contact": "Contattami",
     "Resume": "Curriculum",
-
     "WHAT_I_DO": "Quindi... di che mi occupo?",
     "ACADEMIC_BACKGROUND": "Background accademico",
     "CLICK_TO_TRANSLATE": "\uD83E\uDDD9\u200D♂\uFE0F\uD83D\uDCAD-- Click the logo to translate!",
-
     "VISIT_WEBSITE": "Visita il sito web",
     "VISIT": "Visita",
     "CONFIDENTIAL": "Confidenziale",
-
     "STAR_ME_ON_GITHUB": "Stellami Su GitHub"
 }
