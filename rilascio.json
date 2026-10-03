@@ -1,0 +1,25 @@
+{
+    "node": "20",
+    "componenti": [
+        {
+            "nome": "sito",
+            "tipo": "statico",
+            "cartella": ".",
+            "dipendenze": "npm ci",
+            "compilazione": "npm run build",
+            "risultato": "dist/angular-master-portfolio/browser",
+            "destinazione": "sito"
+        }
+    ],
+    "verifica": [
+        {
+            "percorso": "/",
+            "stato": 200,
+            "contiene": "<app-root"
+        },
+        {
+            "percorso": "/assets/projects-images/nomoreclick.png",
+            "stato": 200
+        }
+    ]
+}

@@ -12,7 +12,7 @@ export enum AssetPaths {
     PROJECT_SPOTIFY = "https://storage.googleapis.com/pr-newsroom-wp/1/2023/12/Generic-FTR-headers_V10.jpg",
     PROJECT_HMS_APP = "assets/projects-images/hms-app.png",
     PROJECT_KIWI_FINANCE = "assets/projects-images/kiwi-finance.png",
-    PROJECT_NO_MORE_CLICK_APP = "https://devacademy.it/wp-content/uploads/2019/09/nodejs-grande.jpg",
+    PROJECT_NO_MORE_CLICK_APP = "assets/projects-images/nomoreclick.png",
     PROJECT_MUSIC_PLAYER = "assets/projects-images/music-player.png",
     PROJECT_DRAWING = "https://www.apple.com/v/apple-pencil/af/images/overview/pro/hero__z7kty0msgsya_large.jpg",
     PROJECT_SA_TILING = "assets/projects-images/sa-tiling.png",

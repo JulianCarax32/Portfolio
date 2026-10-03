@@ -277,6 +277,14 @@ const PersonalProjects: ProjectSection = {
     sectionSubtitle: "SHOWCASING_INNOVATIVE_SOLUTIONS_AND_REAL_WORLD_APPLICATIONS",
     entities: [
         {
+            title: "NOMORECLICK_TITLE",
+            coverImagePath: AssetPaths.PROJECT_NO_MORE_CLICK_APP,
+            githubLink: "https://nomoreclick.org",
+            description: "NOMORECLICK_SHOWCASING_PROJECTS_AND_SKILLS",
+            techStack: ["Angular", "Node.js", "MongoDB"],
+            year: "2026"
+        },
+        {
             title: "BEACH_MANAGEMENT_SOFTWARE",
             coverImagePath: AssetPaths.PROJECT_JUSTBEACH,
             githubLink: "https://justbeach.org", //lo so non è github ma ci sta
@@ -300,14 +308,6 @@ const PersonalProjects: ProjectSection = {
             description: "ANGULAR_BASED_PORTFOLIO_SHOWCASING_PROJECTS_AND_SKILLS",
             techStack: ["Angular", "NginX", "Oracle Cloud"],
             year: 2025
-        },
-        {
-            title: "AUTOMATED_RESPONDER_FOR_HOTELS",
-            coverImagePath: AssetPaths.PROJECT_NO_MORE_CLICK_APP,
-            githubLink: "",
-            description: "AUTOMATED_TOOL_OPTIMIZING_FIRST_RESPONSE_FLOW",
-            techStack: ["Node.js", "MySQL", "Bootstrap"],
-            year: 2023
         },
         // {
         //     title: "Angular + NestJS Boilerplate",
