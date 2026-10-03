@@ -11,7 +11,7 @@
                 <img
                     class="w-full object-cover object-center"
                     [src]="projectData().coverImagePath"
-                    [alt]="projectData().title">
+                    [alt]="projectData().title | translate">
             </a>
         </div>
 
@@ -26,7 +26,7 @@
                 {{ projectData().techStack.join(" | ") }}
             </h2>
 
-            <p class="description-text leading-relaxed text-left text-lg mb-3 h-48" [title]="projectData().description">
+            <p class="description-text leading-relaxed text-left text-lg mb-3 h-48" [title]="projectData().description | translate">
                 {{ projectData().description | translate}}
             </p>
 
