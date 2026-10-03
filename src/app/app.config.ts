@@ -6,11 +6,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { provideHttpClient, HttpClient } from '@angular/common/http';
 
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-// Funzione per caricare le traduzioni da "assets/i18n/"
-export function createTranslateLoader(http: HttpClient) {
-    return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+// Funzione per caricare le traduzioni da "assets/i18n/".
+// Chiede ogni volta al server la versione aggiornata: i file non hanno un hash nel nome e, dopo un rilascio,
+// il browser userebbe ancora per settimane la copia in cache (le chiavi nuove comparirebbero non tradotte).
+export function createTranslateLoader(http: HttpClient): TranslateLoader {
+    return {
+        getTranslation: (lang: string) =>
+            http.get(`./assets/i18n/${lang}.json`, { headers: { 'Cache-Control': 'no-cache' } }),
+    };
 }
 
 export const appConfig: ApplicationConfig = {
